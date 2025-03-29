@@ -4,8 +4,8 @@ public class Hola {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		System.out.println("hola me llamo izan");
+		Personas p1=new Personas("izan");
+		System.out.println("hola me llamo "+p1.getNombre());
 	}
 
 }
