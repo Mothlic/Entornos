@@ -1,11 +1,16 @@
 package p4_Entornos;
 
+import java.util.Scanner;
+
 public class Hola {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		System.out.println("hola me llamo izan");
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Como te llamas:");
+		String name=sc.nextLine();
+		
+		System.out.println("hola me llamo "+name);
+		
 	}
 
 }
