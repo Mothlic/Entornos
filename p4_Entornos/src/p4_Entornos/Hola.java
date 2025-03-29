@@ -8,9 +8,9 @@ public class Hola {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Como te llamas:");
 		String name=sc.nextLine();
-		
-		System.out.println("hola me llamo "+name);
-		
+		Personas p1=new Personas(name);
+		System.out.println("hola me llamo "+p1.getNombre());
+
 	}
 
 }
